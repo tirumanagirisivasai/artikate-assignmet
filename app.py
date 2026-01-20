@@ -84,6 +84,7 @@ def get_signal_metrics(orig_img):
 
     output = model.predict(orig_img, device='cpu', save=False, conf=0.5)
     boxes = output[0].boxes.xyxy.cpu().numpy()
+    
     conf = [round(float(c), 2) for c in output[0].boxes.conf.cpu().numpy()]
     detected_labels = [model.names[int(cls)] for cls in output[0].boxes.cls]
     
@@ -95,6 +96,9 @@ def get_signal_metrics(orig_img):
         crops = orig_img[y1:y2, x1:x2]
         crop_score = get_normalized_sharpness(crops)
         composition = get_composition_metrics(orig_img, [[x1, y1, x2, y2]])
+    else:
+        st.write("**No valid image is found..... Retry with another image ⚠️⚠️⚠️**")
+        st.stop()
 
     global_score = get_normalized_sharpness(orig_img)
 
