@@ -15,7 +15,7 @@ This is a github repo consisting of the all the project files necessary to the a
 
 ## Architecture
 
- <image url='/utils/images/architecture.png'>
+ <img url='/utils/images/architecture.png'>
 
 ## Signals Detected from the image
 
