@@ -1,0 +1,10 @@
+langchain
+langchain_core
+langchain_ollama
+langchain
+pydantic
+streamlit #for UI
+opencv-python
+numpy
+ultralytics
+
