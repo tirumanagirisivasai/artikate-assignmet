@@ -11,7 +11,7 @@ This is a github repo consisting of the all the project files necessary to the a
 
 ## How to Run:
 
-- `streamlit run main.py --server.enableXsrfProtection=false`
+- `streamlit run app.py --server.enableXsrfProtection=false`
 
 ## Architecture
 
@@ -27,3 +27,4 @@ This is a github repo consisting of the all the project files necessary to the a
 - Image aspect ratio
 
 ## Video link
+<video src="https://youtu.be/512xj6bNS6s">
