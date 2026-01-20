@@ -27,4 +27,4 @@ This is a github repo consisting of the all the project files necessary to the a
 - Image aspect ratio
 
 ## Video link
-<video src="https://youtu.be/512xj6bNS6s">
+[![Watch the Technical Demo](https://img.youtube.com/vi/512xj6bNS6s/0.jpg)](https://youtu.be/512xj6bNS6s)
