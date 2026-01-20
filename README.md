@@ -14,8 +14,9 @@ This is a github repo consisting of the all the project files necessary to the a
 - `streamlit run main.py --server.enableXsrfProtection=false`
 
 ## Architecture
-
- <img url='/utils/images/architecture.png'>
+<p align="center">
+  <img src='utils/images/architecture.png' width="600" title="Architecture">
+</p>
 
 ## Signals Detected from the image
 
