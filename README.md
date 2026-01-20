@@ -14,6 +14,7 @@ This is a github repo consisting of the all the project files necessary to the a
 - `streamlit run main.py --server.enableXsrfProtection=false`
 
 ## Architecture
+
 <p align="center">
   <img src='utils/images/architecture.png' width="600" title="Architecture">
 </p>
